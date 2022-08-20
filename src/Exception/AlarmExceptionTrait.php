@@ -21,4 +21,7 @@ trait AlarmExceptionTrait
         return $clone;
     }
 
+    public function __clone()
+    {
+    }
 }
