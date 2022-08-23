@@ -1,5 +1,5 @@
 {
-  "name": "shershon-php-package/common-component",
+  "name": "shershon/common",
   "type": "library",
   "description": "基于psr的通用组件",
   "minimum-stability": "stable",
