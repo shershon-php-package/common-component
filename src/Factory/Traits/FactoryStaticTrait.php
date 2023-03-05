@@ -14,6 +14,8 @@ trait FactoryStaticTrait
     /**
      * @param static|null $instance
      * @return static|null
+     * @throws \Psr\Container\ContainerExceptionInterface
+     * @throws \Psr\Container\NotFoundExceptionInterface
      */
     public static function instance($instance = null)
     {

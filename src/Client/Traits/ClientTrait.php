@@ -232,6 +232,7 @@ trait ClientTrait
      * @param array $headers
      * @param array $options
      * @return bool|mixed
+     * @throws Throwable
      */
     public function postXml($url, $queryParams = [], $postData = [], $headers = [], $options = [])
     {
@@ -245,6 +246,7 @@ trait ClientTrait
      * @param array $headers
      * @param array $options
      * @return bool|mixed
+     * @throws Throwable
      */
     public function postMultipart($url, $queryParams = [], $postData = [], $headers = [], $options = [])
     {

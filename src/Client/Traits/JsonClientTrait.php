@@ -10,7 +10,7 @@ trait JsonClientTrait
 {
 
     use ClientTrait {
-        getBaseHeaders as private pGetBaseHeaders;
+        ClientTrait::getBaseHeaders as private pGetBaseHeaders;
     }
 
     /**
