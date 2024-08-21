@@ -1,7 +1,7 @@
 {
   "name": "shershon/common",
   "type": "library",
-  "description": "基于psr的通用组件",
+  "description": "常用的、基于 psr 的通用组件",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
